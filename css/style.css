@@ -258,8 +258,34 @@ footer {
 
 /*sezione footer grande*/
 .footer-1 {
+    display:flex;
+    align-items:flex-start;
     flex-direction:row;
     height:400px;
+}
+
+.flag-image {
+    width:10%;
+}
+
+.prodotto {
+    display:flex;
+    flex-direction:column;
+}
+
+.compagnia {
+    display:flex;
+    flex-direction:column;
+}
+
+.risorse {
+    display:flex;
+    flex-direction:column;
+}
+
+.norme {
+    display:flex;
+    flex-direction:column;
 }
 
 /*div del footer grande*/
@@ -270,12 +296,10 @@ footer {
     height:90%;
 }
 
-/*box corallo*/
-.coral-box{
+/*contatti*/
+.contatti{
     width: 30%;
     max-width:200px;
-    /*debug*/
-    background-color:rgb(223, 96, 96);
 }
 
 /*box turchese*/

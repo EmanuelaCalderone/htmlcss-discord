@@ -17,11 +17,6 @@ header {
     background-color:#3260E0;
 }
 
-/*contorni tratteggiati - debug */
-.dashed {
-    border:dashed;
-}
-
 /*navbar header e footer piccolo*/
 .main-nav, .navbar-small-footer{
     display:flex;
@@ -55,8 +50,6 @@ header {
     justify-content:space-around;
     align-items:center;
     height:100%;
-    border-left:dashed;
-    border-right:dashed;
 }
 
 /*sezione login navbar  SISTEMARE CONTENUTO CHE ESCE DA NAV*/

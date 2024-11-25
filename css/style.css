@@ -166,10 +166,9 @@ header {
     justify-content:center;
     align-items:center;
     width: 100%;
-    /*debug*/
-   padding:100px;
-
+    padding:80px;
 }
+
 /*sezione bianca*/
 .white-section {
     flex-direction:row;
@@ -211,12 +210,11 @@ header {
 
 /*box rosa*/
 .pink-box {
-    width:100%;
     flex-wrap:wrap;
     display:flex;
     justify-content:center;
-    
-   
+    align-items:center;
+    width:100%;
 }
 
 .pink-box h2 {
@@ -227,11 +225,10 @@ header {
 }
 
 .pink-box p {
+    font-size:13px;
     line-height:20px;
     padding-left:90px;
     padding-right:90px;
-    font-size:13px;
-    
 }
 
 /*box verde*/

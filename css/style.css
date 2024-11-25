@@ -61,6 +61,12 @@ header {
     border-right:dashed;
 }
 
+.login {
+    display:flex;
+    justify-content:right;
+    align-items:center;
+}
+
 /*sezione login navbar   SISTEMARE CONTENUTO CHE ESCE DA NAV*/
 .login button {
     background-color:white;
@@ -186,10 +192,7 @@ header {
 
 /*sezione grigio chiaro*/
 .lightgrey-section {
-    width: 100%;
     background-color:#F6F6F6;
-    /*debug*/
-    height:500px;
 }
 
 /*box blu e rosa*/
@@ -233,11 +236,14 @@ header {
 
 /*box verde*/
 .green-box{
-    width: 70%;
-    max-width:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
     /*debug*/
     background-color:green;
-    height: 90%;
+    
 }
 
 /*footer suddiviso in due sezioni: footer grande(1) e piccolo(2)*/

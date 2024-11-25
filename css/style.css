@@ -260,12 +260,21 @@ footer {
 .footer-1 {
     display:flex;
     align-items:flex-start;
+    justify-content: space-evenly;
     flex-direction:row;
+    padding:50px;
+    padding-left: 300px;
+    padding-right: 300px;
     height:400px;
+    line-height:30px;
 }
 
 .flag-image {
     width:10%;
+}
+
+footer p {
+    color:white;
 }
 
 .prodotto {
@@ -286,6 +295,15 @@ footer {
 .norme {
     display:flex;
     flex-direction:column;
+}
+
+footer h4, footer h5 {
+    color:#878FBB;
+}
+
+footer a {
+    color:white;
+    text-decoration:none;
 }
 
 /*div del footer grande*/

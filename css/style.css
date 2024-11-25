@@ -297,21 +297,19 @@ footer p {
     flex-direction:column;
 }
 
-footer h4, footer h5 {
+footer h2 {
+    margin-bottom:10px;
+    padding:0;
+}
+
+footer h2, footer h4 {
     color:#878FBB;
 }
+
 
 footer a {
     color:white;
     text-decoration:none;
-}
-
-/*div del footer grande*/
-.coral-box, .turquoise-box {
-    margin-top:2px;
-    margin-bottom:10px;
-    /*debug*/
-    height:90%;
 }
 
 /*contatti*/
@@ -320,13 +318,9 @@ footer a {
     max-width:200px;
 }
 
-/*box turchese*/
-.turquoise-box{
-    width: 10%;
-    max-width:100px;
-    /*debug*/
-    background-color:rgb(28, 176, 176);
-    border:dashed white;
+/* icone */
+.fa-brands {
+    width:20%;
 }
 
 /*sezione footer piccolo */

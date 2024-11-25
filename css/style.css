@@ -167,11 +167,14 @@ header {
     align-items:center;
     width: 100%;
     /*debug*/
-    height:400px;
+   padding:100px;
+
 }
 /*sezione bianca*/
 .white-section {
     flex-direction:row;
+    justify-content:center;
+    align-items:center;
     /*debug*/
     background-color:white;
 }
@@ -192,24 +195,43 @@ header {
 
 /*box blu e rosa*/
 .blue-box, .pink-box {
-    /*debug*/
-    height:80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-basis:30%;
+    padding:30px;
+   
 }
 
 /*box blu*/
 .blue-box {
-    width:40%;
-    max-width:350px;
-    /*debug*/
-    background-color:blue;
+    width:100%;
+    max-width:650px;
 }
 
 /*box rosa*/
 .pink-box {
-    width:30%;
-    max-width:250px;
-    /*debug*/
-    background-color:pink;
+    width:100%;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    
+   
+}
+
+.pink-box h2 {
+    font-size:30px;
+    padding-bottom:10px;
+    padding-left:90px;
+    padding-right:90px;
+}
+
+.pink-box p {
+    line-height:20px;
+    padding-left:90px;
+    padding-right:90px;
+    font-size:13px;
+    
 }
 
 /*box verde*/

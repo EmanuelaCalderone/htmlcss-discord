@@ -46,23 +46,34 @@ header {
 }
 
 .main-nav div a {
-    text-decoration:none;   
+    text-decoration:none; 
+    color:white;
+    font-weight:bold;
 }
 
 /*sezione link navbar*/
 .link{
     flex-grow:0.5;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     height:100%;
     border-left:dashed;
     border-right:dashed;
 }
 
-/*sezione login navbar*/
-.login {
-    margin-right:10px;
+/*sezione login navbar   SISTEMARE CONTENUTO CHE ESCE DA NAV*/
+.login button {
+    background-color:white;
+    border:none;
+    border-radius:50px;
+    width:60px;
+    height:30px;
 }
+
+.login button a {
+    color: #23272A;
+}
+
 
 .footer, .container {
     display:flex;

@@ -276,6 +276,11 @@ footer p {
 }
 
 /* sezioni elenchi footer */
+
+footer li {
+    list-style-type:none;
+}
+
 .prodotto {
     display:flex;
     flex-direction:column;
